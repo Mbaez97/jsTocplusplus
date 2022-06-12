@@ -23,8 +23,14 @@
         yylval=strdup(yytext); 
         return AUTO;
     }
-    "const number"
-
+    "const"(.)":"" "" number"{
+        yylval.data_type=0; 
+        return INT;
+    }
+    "let"(.)":"" "" number"{
+        yylval.data_type=0; 
+        return INT;
+    }
 
 
 

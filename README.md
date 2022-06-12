@@ -26,7 +26,7 @@ if yo choose to modify the lex 'ts2c.l' or yacc 'ts2c.y' files, you would need t
 
     Fork this project on GitHub and begin coding! :tada:
 
-## Utilizando Docker
+## Ussing Docker Container
 
     If you want to use Docker, you can use the following command:
     - `docker build -t transpilador_tstocpp .`

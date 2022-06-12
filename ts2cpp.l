@@ -31,6 +31,13 @@
         yylval.data_type=0; 
         return INT;
     }
+    // Sum two numbers between the operator +
+    [$_a-zA-Z][$_a-zA-Z0-9]* {
+        strcpy(yylval.name,yytext); 
+        return VAR;
+    }
+
+
 
 
 
